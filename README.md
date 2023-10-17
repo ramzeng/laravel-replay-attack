@@ -5,13 +5,29 @@
 
 ## Installing
 
-```shell
+```bash
 $ composer require ramzeng/laravel-replay-attack -vvv
 ```
 
 ## Usage
+### Publish config
+```bash
+php artisan vendor:publish --provider="Ramzeng\LaravelReplayAttack\ServiceProvider"
+```
+### Add middleware
+```php
+// app/Http/Kernel.php
 
-TODO
+class Kernel extends HttpKernel
+{
+    protected $middleware = [
+        \Ramzeng\LaravelReplayAttack\Middlewares\ReplayAttack::class,
+    ];
+    
+    ...
+    ...
+}
+```
 
 ## Contributing
 
