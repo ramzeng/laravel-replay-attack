@@ -1,0 +1,1 @@
+{"version":1,"defects":{"Ramzeng\\LaravelReplayAttack\\Tests\\ReplayAttackTest::testReplayAttack":5,"Ramzeng\\LaravelReplayAttack\\Tests\\ReplayAttackTest::test_replay_attack":8},"times":{"Ramzeng\\LaravelReplayAttack\\Tests\\ReplayAttackTest::testReplayAttack":0.029,"Ramzeng\\LaravelReplayAttack\\Tests\\ReplayAttackTest::test_replay_attack":0.017}}

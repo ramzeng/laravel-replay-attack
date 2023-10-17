@@ -1,0 +1,36 @@
+{
+    "name": "ramzeng/laravel-replay-attack",
+    "description": "laravel middleware to prevent replay attacks.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ramzeng",
+            "email": "srizym@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "laravel/framework": "^9.0|^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ramzeng\\LaravelReplayAttack\\": "src",
+            "Ramzeng\\LaravelReplayAttack\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "pint": "vendor/bin/pint",
+        "test": "vendor/bin/phpunit --colors=always"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.13",
+        "phpunit/phpunit": "^10.4"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ramzeng\\LaravelReplayAttack\\ServiceProvider"
+            ]
+        }
+    }
+}
