@@ -1,6 +1,6 @@
 <h1 align="center"> laravel-replay-attack </h1>
 
-<p align="center"> laravel middleware to prevent replay attacks..</p>
+<p align="center"> laravel middleware to prevent replay attacks.</p>
 
 
 ## Installing
@@ -12,7 +12,7 @@ $ composer require ramzeng/laravel-replay-attack -vvv
 ## Usage
 ### Publish config
 ```bash
-php artisan vendor:publish --provider="Ramzeng\LaravelReplayAttack\ServiceProvider"
+$ php artisan vendor:publish --provider="Ramzeng\LaravelReplayAttack\ServiceProvider"
 ```
 ### Add middleware
 ```php
